@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}
+  Something went wrong
+{% endblock title %}
+
+{% block content %}
+  <h1>We could not find the page</h1>
+  <p>We could not find the page Please nagivage to <a href="{% url 'index' %}">home</a></p>
+{% endblock content %}
